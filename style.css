@@ -4,12 +4,15 @@ body {
     --text-color: #070707;
     --text-secondary-color: #828282;
     --separator-color: #828282;
+    --base-font-size: 18px;
+    --base-line-height: 22px;
 }
 
 html, body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: var(--base-font-size);
     background: var(--bg-color);
     color: var(--text-color);
 
@@ -38,3 +41,13 @@ html, body {
     margin: 0;
 }
 
+.main-header ul a {
+    text-decoration: none;
+    color: var(--text-secondary-color);
+    font-weight: bold;
+    font-size: var(--base-font-size);
+}
+
+.main-header ul a.nav-item--active {
+    color: var(--text-color);
+}
