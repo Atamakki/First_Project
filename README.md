@@ -4,7 +4,7 @@
 
 Сайт написан на HTML/JS/CSS, без использования препроцессоров и сборки проекта.
 
-[Github Pages](https://https://atamakki.github.io/First_Project/)
+[Github Pages](https://atamakki.github.io/First_Project/)
 
 ![Скриншот сайта](./images/preview.png)
 
