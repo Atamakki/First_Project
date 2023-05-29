@@ -26,12 +26,21 @@ html, body {
     background-color: var(--bg-secondary-color);
 }
 
+.row-margin {
+    margin-bottom: 100px;
+}
+
 .column {
     max-width: 945px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
+.content-block {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    text-align: center;
+}
 .main-header {
     padding: 20px 0;
     border-bottom: 1px solid var(--separator-color);
@@ -62,6 +71,11 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+}
+
+.denis-novik-photo {
+    width: 100%;
+    height: auto;
 }
 
 /*about*/
