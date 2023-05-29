@@ -80,3 +80,38 @@ html, body {
 
 /*about*/
 
+/* Skills */
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+.skills__title {
+    font-size: 34px;
+}
+
+.skills__text {
+    margin-top: 69px;
+    margin-bottom: 83px;
+    font-size: var(--base-font-size);
+    color: var(--text-color);
+}
+
+.skills__types {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 100px;
+}
+
+.skills_types_stars {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+.skills_types_text {
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
