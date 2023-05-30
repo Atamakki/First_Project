@@ -118,16 +118,39 @@ html, body {
     color: var(--text-secondary-color);
 }
 
+.skills__types__item:hover {
+    transform: scale(115%);
+    transition: 1000ms ease;
+    box-shadow: inset 0 0 5px var(--separator-color);
+    border-radius: 6%;
+}
+
+.skill_check {
+    min-height: 230px;
+}
+
+.stars_margin_check {
+    padding-top: 17px;
+}
+
+
 /* Portfolio */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-weight: bold;
+}
 
 .portfolio_title {
     font-size: var(--title-font-size);
     vertical-align: top;
 }
 
-.portfolio_link {
-    margin-top: 45px;
+.portfolio_link_item {
     font-size: var(--base-font-size);
     vertical-align: top;
     color: var(--text-color);
+    
 }
