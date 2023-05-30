@@ -6,6 +6,7 @@ body {
     --separator-color: #828282;
     --base-font-size: 18px;
     --base-line-height: 22px;
+    --title-font-size: 34px;
 }
 
 html, body {
@@ -87,7 +88,7 @@ html, body {
     flex-direction: column;
 }
 .skills__title {
-    font-size: 34px;
+    font-size: var(--title-font-size);
 }
 
 .skills__text {
@@ -114,4 +115,19 @@ html, body {
 .skills_types_text {
     margin-top: 24px;
     margin-bottom: 40px;
+    color: var(--text-secondary-color);
+}
+
+/* Portfolio */
+
+.portfolio_title {
+    font-size: var(--title-font-size);
+    vertical-align: top;
+}
+
+.portfolio_link {
+    margin-top: 45px;
+    font-size: var(--base-font-size);
+    vertical-align: top;
+    color: var(--text-color);
 }
