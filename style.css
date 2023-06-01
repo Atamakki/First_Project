@@ -47,7 +47,7 @@ h2 {
     text-align: center;
 }
 .main-header {
-    padding: 20px 0;
+    padding: 30px 0;
     border-bottom: 1px solid var(--separator-color);
 }
 
@@ -69,6 +69,11 @@ h2 {
 .main-header ul a.nav-item--active {
     color: var(--text-color);
 }
+
+.nav-item:hover {
+    color: var(--text-color);
+}
+
 /* Introduction */
 
 .introduction {
@@ -83,7 +88,23 @@ h2 {
     height: auto;
 }
 
+.language-select {
+    display: flex;
+    flex-direction: row;
+    transform: rotate(-90deg);
+}
+
+.language-select__item--active {
+    font-weight: bold;
+}
+
 /*about*/
+
+.about__text {
+    color: var(--text-color);
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+}
 
 /* Skills */
 
@@ -135,6 +156,10 @@ h2 {
     padding-top: 17px;
 }
 
+.aspect-ratio {
+    width: 26px;
+    height: 26px;
+}
 
 /* Portfolio */
 
@@ -145,16 +170,22 @@ h2 {
     font-weight: bold;
 }
 
-.portfolio_title {
-    font-size: var(--title-font-size);
-    vertical-align: top;
+.portfolio_image {
+    display: flex;
+    flex-direction: column;
+    gap:45px;
+    margin-bottom: 80px;
+}
+
+.portfolio_image_item:hover {
+    transform: scale(105%);
+    transition: 1000ms ease;
 }
 
 .portfolio_link_item {
     font-size: var(--base-font-size);
     vertical-align: top;
     color: var(--text-color);
-    
 }
 
 /* Contacts */
@@ -170,7 +201,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
     margin-bottom: 80px;
     font-size: var(--base-font-size);
     font-weight: bold;
@@ -178,9 +209,16 @@ h2 {
 
 .contacts_button {
     color: #FFFFFF;
+    font-size: var(--base-font-size);
     background-color: #070707;
     padding: 15px 50px;
     border-radius: 20% / 70%;
+
+}
+
+.contacts_button:hover {
+    transform: scale(115%);
+    transition: 1000ms ease;
 }
 
 .contacts__social_links {
@@ -197,6 +235,16 @@ h2 {
     gap: 60px;
 }
 
+.contacts_image:hover {
+    transform: scale(115%);
+    transition: 1000ms ease;
+}
+
 .contacts_link {
     color: var(--text-secondary-color);
+    text-decoration: none;
+}
+
+.contacts_link:hover {
+    color: var(--text-color);
 }
