@@ -188,10 +188,15 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: 45px;
+    color: var(--text-secondary-color);
 }
 
 .contacts__social_links__images {
     display: flex;
     flex-direction: row;
     gap: 60px;
+}
+
+.contacts_link {
+    color: var(--text-secondary-color);
 }
