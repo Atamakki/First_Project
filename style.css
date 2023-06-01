@@ -142,10 +142,13 @@ h2 {
     margin-bottom: 40px;
     color: var(--text-secondary-color);
 }
+.skills__types__item {
+    transition: 1000ms ease;
+}
 
 .skills__types__item:hover {
     transform: scale(115%);
-    transition: 1000ms ease;
+    
 }
 
 .skill_check {
@@ -177,9 +180,12 @@ h2 {
     margin-bottom: 80px;
 }
 
+.portfolio_image_item {
+    transition: 1000ms ease;
+}
+
 .portfolio_image_item:hover {
     transform: scale(105%);
-    transition: 1000ms ease;
 }
 
 .portfolio_link_item {
@@ -213,12 +219,12 @@ h2 {
     background-color: #070707;
     padding: 15px 50px;
     border-radius: 20% / 70%;
-
+    transition: 1000ms ease;
 }
 
 .contacts_button:hover {
     transform: scale(115%);
-    transition: 1000ms ease;
+    
 }
 
 .contacts__social_links {
@@ -234,10 +240,12 @@ h2 {
     flex-direction: row;
     gap: 60px;
 }
-
+.contacts_image {
+    transition: 1000ms ease;
+}
 .contacts_image:hover {
     transform: scale(115%);
-    transition: 1000ms ease;
+    
 }
 
 .contacts_link {
