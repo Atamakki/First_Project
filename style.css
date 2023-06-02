@@ -87,6 +87,24 @@ h2 {
     padding: 20px 0;
 }
 
+.introducion_block {
+    font-size: var(--base-font-size);
+    vertical-align: top;
+    font-weight: 900;
+}
+
+@media (max-width: 780px) {
+    .introduction .language-select {
+        display: none;
+    }
+    
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
+ 
 .denis-image {
     width: 100%;
     height: auto;
