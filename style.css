@@ -74,6 +74,10 @@ h2 {
     color: var(--text-color);
 }
 
+.main-nav {
+    padding-left: 0px;
+}
+
 /* Introduction */
 
 .introduction {
@@ -162,6 +166,15 @@ h2 {
 .aspect-ratio {
     width: 26px;
     height: 26px;
+}
+
+@media (max-width: 780px) {
+    .skills__types {
+        justify-content: center;
+        gap: 150px;
+        flex-basis: 40%;
+        flex-wrap: wrap;
+    }
 }
 
 /* Portfolio */
