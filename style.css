@@ -92,6 +92,21 @@ h2 {
     height: auto;
 }
 
+.image-mobile {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 400px) {
+    .denis-image {
+        display: none;
+    }
+    .image-mobile {
+        display: block;
+    }
+}
+
 .language-select {
     display: flex;
     flex-direction: row;
