@@ -177,7 +177,6 @@ ul {
 /* mobile-menu */
 
 .mobile-menu {
-    
     position: fixed;
     top: 0;
     right: 0;
@@ -188,6 +187,7 @@ ul {
     background-color: var(--bg-color);
     display: flex;
     justify-content: space-between;
+    border: 1px solid black;
 }
 
 .mobile-menu .main-nav {
