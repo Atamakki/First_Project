@@ -87,7 +87,7 @@ h2 {
     padding: 20px 0;
 }
 
-.denis-novik-photo {
+.denis-image {
     width: 100%;
     height: auto;
 }
@@ -195,6 +195,8 @@ h2 {
 
 .portfolio_image_item {
     transition: 1000ms ease;
+    width: 100%;
+    height: auto;
 }
 
 .portfolio_image_item:hover {
