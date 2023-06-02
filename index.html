@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="mobile-menu">
+        <div class="mobile-menu" style="display: none;">
             <div class="menu-leftside">
                 <nav>
                     <ul class='main-nav'>
@@ -23,7 +23,7 @@
                 </nav>
             </div>
             <div class="menu-rightside">
-                <button class="menu_close_button"><img src="./images/close_menu.svg" width="23" height="23"></button>
+                <button id="nav-menu-close" class="menu_close_button"><img src="./images/close_menu.svg" width="23" height="23"></button>
                 <div class="language-select">
                     <div class="language-select__item">RU |</div>
                     <div class="language-select__item language-select__item--active">EN</div>
@@ -36,7 +36,7 @@
             <div class="column-mobile">
                     <h1 class="introduction_name_mobile">Denis<br>Novik</h1>
                     <div>
-                        <button class="menu-button"><img src="./images/menu.svg" width="33px" height="19px"></button>
+                        <button id="nav-menu-open" class="menu-button"><img src="./images/menu.svg" width="33px" height="19px"></button>
                     </div>
             </div>
         </div>
@@ -220,5 +220,6 @@
             </div>
         </div>
     </div>
+<script src="./js/main.js"></script>
 </body>
 </html>
